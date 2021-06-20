@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en"
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#concept">Budaya</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bottom">Privacy Terms</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item carousel-photo1 active">
+      
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Hello!</h1>
+            <p>Looking for fresh Asian food?</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Menu</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-photo2">
+
+        <div class="container">
+          <div id="groot" class="carousel-caption" >
+            <h1>budaya</h1>
+            <p>de smaak van een cultuur</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-photo3">
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Get your greens!</h1>
+            <p>How we take care of our planet</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Over here</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="circular--landscape">
+          <img src="food_small.jpg" >
+        </div>
+        <h2>Small bites</h2>
+        <p>Kleine hapjes om je vingers bij af te likken</p>
+        <p><a class="btn btn-secondary" href="#">Fingerlicking &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+        <div class="circular--portrait">
+          <img src="food_big.jpg" alt="">
+        </div>
+        <h2>Big bites</h2>
+        <p>Een grotere portie voor een grotere beleving</p>
+        <p><a class="btn btn-secondary" href="#">Still that hunger &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+        <div class="circular--landscape">
+          <img src="food_sweet.jpg" alt="">
+        </div>
+        <h2>Sweet bites</h2>
+        <p>Je bent nog zoeter dan suiker</p><br>
+        <p><a class="btn btn-secondary" href="#">Sugars &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette"id="concept">
+      <div class="col-md-6" >
+        <h2 class="featurette-heading">De smaak van een cultuur.<span class="text-muted">The concept</span></h2>
+        <p class="lead">Wij zijn Lisa en Eva, twee avonturiers die hun ervaringen willen delen! Alles is eigenlijk begonnen toen we thuis kwamen van een reis naar Indonesië. We hadden nog zoveel zin in de smaken van Indonesië, dat we snel naar de winkel liepen en de keuken insprongen. Zo zijn we voor de eerste keer beginnen experimenteren, dit deden we steeds vaker. Als er mensen over de vloer kwamen lieten we ze ook al snel iets proeven. Toen iemand de term foodtruck liet vallen waren we meteen verkocht. Na veel dromen en hard werken bevinden we ons ondertussen hier!</p>
+      </div>
+      <div class="col-md-6">
+        <img src="cooking.jpg" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-6 order-md-2">
+        <h2 class="featurette-heading" id="green">Wat we doen voor onze planeet.<span class="text-muted">See for yourself</span></h2>
+        <p class="lead">Op onze reizen hebben we zoveel mooie plekken bezocht en deze willen we in stand houden. We moeten onze dankbaarheid kunnen teruggeven aan de natuur. Verse producten uit eigen kweek, biologisch afbreekbare verpakkingen, gerecycleerde servetten,...Allemaal kleine factoren die samen een verschil maken. Let this inspire you!</p>
+      </div>
+      <div class="col-md-6 order-md-1">
+        <img src="indonesia.jpg" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-6">
+        <h2 class="featurette-heading">Wat we voor jou kunnen doen.<span class="text-muted">Checkmate</span></h2>
+        <p class="lead">Een heerlijke Aziatische beleving in jouw tuin, op een begrijfsfeestje, je dorpsplein,... Onze combo: lekker eten voor groot en klein, gepaard met toffe reisverhalen en duurzame tips!</p>
+      </div>
+      <div class="col-md-6">
+        <img src="wedding.jpg"  alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container" id="bottom">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2020–2021 Budaya, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

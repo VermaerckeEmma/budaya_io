@@ -1,0 +1,149 @@
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Quicksand & Comfortaa
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Quicksand', sans-serif;
+    ----------------------------------------
+    Colors:
+        Blauw       rgb(0,71,187);
+        Bruin       rgb(189,155,96);
+        Groen       rgb(0,175,102);   
+============================================ */
+/* GLOBAL STYLES
+-------------------------------------------------- */
+*{
+    box-sizing:border-box;
+}
+.carousel-photo1{
+    background: url("intro_loempia.jpg") no-repeat center center;
+    background-size: cover;
+}
+.carousel-photo2{
+    background: url("intro_noodle.jpg") no-repeat center center;
+    background-size: cover;
+}
+.carousel-photo3{
+    background: url("intro_nature.jpg") no-repeat center center;
+    background-size: cover;
+}
+img{
+    height: auto;
+    max-width: 100%;
+    /*hier zou max-width: 100% moeten staan maar weggehaal voo bolletjes;*/
+}
+/* PERFECTING RESPONSIVE DESIGN
+-------------------------------------------------- */
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 135px;
+  height: 135px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  max-width: 150%;
+  height: 100%;
+}
+.circular--portrait {
+  position: relative;
+  display: inline-block;
+  width: 135px;
+  height: 135px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
+.featurette-heading {
+    margin-top: 2rem;
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    font-family: 'Comfortaa', cursive;
+    color:grey;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+}
+a{
+    font-family: 'Quicksand', sans-serif;
+}
+.bg-dark {
+    background-color:white!important;
+}
+.navbar-dark .navbar-brand {
+    color:rgba(0,71,187,0.8) ;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color:rgba(0,71,187,0.8);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:rgb(0,175,102);
+}
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color:grey;
+}
+.btn-secondary {
+    color: #fff;
+    background-color:rgb(189,155,96);
+    border-color:rgb(189,155,96);
+}
+.btn-primary {
+    color: #fff;
+    background-color:rgb(189,155,96) ;
+    border-color:rgb(189,155,96);
+}
+h2{
+    color:rgba(0,71,187,0.8);
+}
+.col-lg-4{
+    color:grey;
+}
+.text-muted{
+    font-size:2.5rem;
+    margin-left:1rem;
+    color:rgba(189,155,96,0.8)!important;
+}
+#green{
+    color:rgb(0,175,102);
+}
+.lead{
+    font-size: 1rem;
+}
+.carousel-item p{
+    color:white;
+}
+#groot h1{
+    font-size: 3.5rem;
+}
+#groot p{
+    font-size: 1.75rem;
+}
+.featurette{
+    padding-top: 55px;
+}
+
+a:link{
+
+}
+
+a:active{
+
+}
+
+a:hover{
+    color:rgb(189,155,96) !important;
+}
+
+a:visited{
+
+}
